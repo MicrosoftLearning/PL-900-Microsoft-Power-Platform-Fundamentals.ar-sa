@@ -8,7 +8,7 @@ lab:
 
 ## <a name="scenario"></a>السيناريو
 
-Bellows College is an educational organization with multiple buildings on campus. Campus visitors are currently recorded in paper journals. The information is not captured consistently, and there are no means to collect and analyze data about the visits across the entire campus.
+Bellows College مؤسسة تعليمية يضم حرمها الجامعي العديد من المباني. يتم حاليًا تسجيل زوار الحرم الجامعي في دفاتر عمل ورقية. ولا يتم جمع المعلومات بشكل متسق، ولا توجد وسيلة لجمع وتحليل البيانات المتعلقة بالزيارات عبر الحرم الجامعي بأكمله.
 
 ترغب إدارة الحرم الجامعي في تحديث نظام تسجيل الزوار، بحيث يتم التحكم في الوصول إلى المباني من قبل أفراد الأمن، ويجب أن تكون جميع الزيارات مسجلة مسبقًا ويتم تسجيلها من قبل مضيفيها.
 
@@ -32,7 +32,7 @@ Bellows College is an educational organization with multiple buildings on campus
 ## <a name="things-to-consider-before-you-begin"></a>الأشياء الواجب مراعاتها قبل البدء
 
 -   من الجمهور المستهدف من التقرير؟
--   How will the audience consume the report? Typical device? Location?
+-   كيف سيستهلك الجمهور التقرير؟ هل هذا هو الجهاز الأمثل؟ الموقع؟
 -   هل لديك بيانات كافية لجعلها مرئية؟
 -   ما الخصائص المحتملة التي يمكنك استخدامها لتحليل البيانات المتعلقة بالزيارات؟
 
@@ -56,7 +56,7 @@ Bellows College is an educational organization with multiple buildings on campus
 
 7.  بمجرد اكتمال تحميل البيانات، قم بتوسيع **مساحة عملي** وحدد تقرير **الزيارات** (لاحظ أن النوع معين إلى **تقرير**).
 
-8.  Click <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept>. If <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept> menu item is not visible click <bpt id="p2">**</bpt>...<ept id="p2">**</ept> and then select <bpt id="p3">**</bpt>Edit<ept id="p3">**</ept>.
+8.  انقر فوق **Edit**. إذا لم يكن عنصر القائمة **Edit** مرئيًا، فانقر فوق **...** ثم حدد **Edit**.
 
 لقد قمت الآن بإعداد خدمة Power BI لاستخدامها في أنشطتك المعملية.
 
@@ -64,15 +64,15 @@ Bellows College is an educational organization with multiple buildings on campus
 
 1.  اضغط على أيقونة **المخطط الدائري** في لوحة **المرئيات** لإدراج مخطط.
 
-2.  Press the drop-down arrow beside <bpt id="p1">**</bpt>bc_building<ept id="p1">**</ept> in the Fields pane. Drag the <bpt id="p1">**</bpt>Building<ept id="p1">**</ept> field and drop it into <bpt id="p2">**</bpt>Legend<ept id="p2">**</ept> box.
+2.  اضغط على سهم القائمة المنسدلة بجانب **bc_Visit** في جزء "الحقول". اسحب حقل **المبنى** وأسقطه في مربع **وسيلة الإيضاح**.
 
-3.  Bellows College مؤسسة تعليمية يضم حرمها الجامعي العديد من المباني.
+3.  اسحب حقل **الزيارة** وأفلته في مربع **القيم**.
 
 4.  غيّر حجم المخطط الدائري باستخدام مؤشرات الزاوية بحيث تكون جميع مكونات المخطط مرئية.
 
 5.  انقر فوق التقرير خارج المخطط الدائري لإلغاء تحديده وحدد مخطط عمودي مكدس في جزء **المرئيات**.
 
-6.  يتم حاليًا تسجيل زوار الحرم الجامعي في دفاتر عمل ورقية.
+6.  اضغط على سهم القائمة المنسدلة بجانب **bc_Visit** في جزء "الحقول". اسحب حقل **Visit**وأفلته في مربع الهدف **Y-axis**.
 
 7.  اسحب حقل **Start** وأفلته في مربع الهدف **X-axis**.
 
@@ -84,7 +84,7 @@ Bellows College is an educational organization with multiple buildings on campus
 
     1.  حدد شرائح البنية المتنوعة على المخطط الدائري ولاحظ التغييرات في تقرير الوقت.
 
-    2.  ولا يتم جمع المعلومات بشكل متسق، ولا توجد وسيلة لجمع وتحليل البيانات المتعلقة بالزيارات عبر الحرم الجامعي بأكمله.
+    2.  انقر فوق المخطط العمودي. اضغط على سهم القائمة المنسدلة لتشغيل وضع **التنقل لأسفل**، (أو انقر بزر الماوس الأيمن على المخطط وحدد **التنقل لأسفل**)، ثم انقر فوق العمود للتنقل التفصيلي إلى المستوى التالي (الأيام).
 
     3.  انتقل لأعلى ولأسفل وحدد أشرطة مختلفة في المخطط العمودي للوقت لملاحظة التغييرات في التقرير الدائري.
 
@@ -96,13 +96,13 @@ Bellows College is an educational organization with multiple buildings on campus
 
 1.  ينبغي أن يكون التقرير مفتوحًا من المهمة السابقة.
 
-2.  Select <bpt id="p1">**</bpt>Pin to a dashboard<ept id="p1">**</ept> on the menu. Depending on the layout you may need to press <bpt id="p1">**</bpt>...<ept id="p1">**</ept> to show additional menu items.
+2.  حدد **التثبيت في لوحة المعلومات** في القائمة. اعتمادا على التخطيط قد تحتاج إلى الضغط **...** لإظهار عناصر القائمة إضافية.
 
 3.  حدد **لوحة معلومات جديدة** في مطالبة **التثبيت في لوحة المعلومات**.
 
 4.  أدخِل **إدارة الحرم الجامعي** لـ **اسم لوحة المعلومات**، واضغط على **التثبيت المباشر**.
 
-5.  A pop-up will prompt you that the dashboard has been created. Select <bpt id="p1">**</bpt>Go to dashboard<ept id="p1">**</ept>.
+5.  ستطالبك نافذة منبثقة بإنشاء لوحة المعلومات. حدد **الانتقال إلى لوحة المعلومات**.
 
 6.  اختبار تفاعل المخططات الدائرية والشريطية المعروضة.
 
@@ -110,7 +110,7 @@ Bellows College is an educational organization with multiple buildings on campus
 
 1.  في لوحة المعلومات **Campus Management**، حدد شريط **طرح سؤال عن بياناتك** في الجزء العلوي.
 
-2.  Enter <bpt id="p1">**</bpt>buildings by number of visits<ept id="p1">**</ept> in Q&amp;A area. A bar chart will be displayed.
+2.  أدخل **المباني حسب عدد الزيارات** في جزء Q&A. سيتم عرض مخطط الشريط.
 
 3.  حدد **تثبيت المرئيات**.
 
@@ -118,7 +118,7 @@ Bellows College is an educational organization with multiple buildings on campus
 
 5.  انقر فوق **الخروج من Q&A**.
 
-Your <bpt id="p1">**</bpt>Campus Management<ept id="p1">**</ept> dashboard should be displayed with three visuals on it. You may have to scroll down to see the new Q&amp;A visual.
+يجب عرض لوحة معلومات **إدارة الحرم الجامعي** خاصتك مع ثلاث عناصر تحكم عليها. قد تضطر إلى التمرير لأسفل لرؤية مرئيات Q&A الجديدة.
 
 ينبغي أن تبدو لوحة المعلومات الخاصة بك مماثلة لما يلي:
 

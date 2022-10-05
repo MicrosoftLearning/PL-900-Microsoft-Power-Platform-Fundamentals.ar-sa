@@ -8,7 +8,7 @@ lab:
 
 ## <a name="scenario"></a>السيناريو
 
-Bellows College is an educational organization with multiple buildings on campus. Campus visitors are currently recorded in paper journals. The information is not captured consistently, and there are no means to collect and analyze data about the visits across the entire campus.
+Bellows College مؤسسة تعليمية يضم حرمها الجامعي العديد من المباني. يتم حاليًا تسجيل زوار الحرم الجامعي في دفاتر عمل ورقية. ولا يتم جمع المعلومات بشكل متسق، ولا توجد وسيلة لجمع وتحليل البيانات المتعلقة بالزيارات عبر الحرم الجامعي بأكمله.
 
 ترغب إدارة الحرم الجامعي في تحديث نظام تسجيل الزوار، بحيث يتم التحكم في الوصول إلى المباني من قبل أفراد الأمن، ويجب أن تكون جميع الزيارات مسجلة مسبقًا ويتم تسجيلها من قبل مضيفيها.
 
@@ -61,7 +61,7 @@ Bellows College is an educational organization with multiple buildings on campus
 
 4. ضمن القسم **تجارب البيانات**، حدد **النماذج** وانقر لفتح نموذج المعلومات بنوع النموذج **الرئيسي**.
 
-<bpt id="p1">**</bpt>IMPORTANT:<ept id="p1">**</ept> Since by default all forms are named Information, make sure to verify that the form you select has a Form Type of <bpt id="p2">**</bpt>Main<ept id="p2">**</ept> and not something else. By default, the form has two fields: Name and Owner.
+**IMPORTANT:** نظراً لأن جميع النماذج تسمى معلومات بشكل افتراضي، يرجى التحقق من أن النموذج الذي تحدده من النوع **الرئيسي** وليس شيئاً آخر. بشكل افتراضي، يحتوي النموذج على حقلين: الاسم والمالك.
 
 5. على الجانب الأيمن من الشاشة ضمن لوحة خصائص، حدد حقل **اسم العرض**، وقم بتغييره إلى **معلومات رئيسية**.
 
@@ -79,19 +79,19 @@ Bellows College is an educational organization with multiple buildings on campus
 
 7. اسحب عمود **الرمز** وأفلته في رأس النموذج.
 
-The header is the top right area of the form. You may need to collapse the Properties panel on the right side of the screen to see the field on the form.
+الرأس هي المنطقة العلوية اليمنى من النموذج. قد تحتاج إلى طوي لوحة الخصائص على الجانب الأيمن من الشاشة لرؤية الحقل في النموذج.
 
 8. مع استمرار تحديد حقل **التعليمة البرمجية**، حدد خانة الاختيار **للقراءة فقط** في لوحة الخصائص على الجانب الأيمن من الشاشة.
 
-9. Select <bpt id="p1">**</bpt>Owner<ept id="p1">**</ept> field. In the Properties panel, change the <bpt id="p1">**</bpt>Label<ept id="p1">**</ept> to <bpt id="p2">**</bpt>Host<ept id="p2">**</ept>
+9. حدد حقل **المالك**. في لوحة الخصائص، غيّر **تسمية** إلى **مضيف**
 
 10. انقر فوق **حفظ** في الجزء العلوي الأيمن وانتظر حتى يكتمل الحفظ.
 
 11. انقر فوق **نشر** في الجزء العلوي الأيمن وانتظر حتى يكتمل النشر.
 
-12. Bellows College مؤسسة تعليمية يضم حرمها الجامعي العديد من المباني.
+12. إذا تم فتح طريقة عرض التحرير في علامة تبويب أو نافذة مستعرض جديدة، فقم بإغلاقها. انقر فوق **Back** في أعلى يسار الشاشة. يجب أن تعود الآن إلى نماذج جداول الزيارة.
 
-13. يتم حاليًا تسجيل زوار الحرم الجامعي في دفاتر عمل ورقية.
+13. استخدام مسارات التنقل في الزاوية العلوية اليمنى (الجداول>الزيارة>النماذج). حدد **الزيارة** للعودة إلى الشاشة الرئيسية لجدول **الزيارة**.
 
 ### <a name="task-2-edit-active-visits-view"></a>المهمة \#2: تحرير عرض الزيارات النشطة
 
@@ -109,7 +109,7 @@ The header is the top right area of the form. You may need to collapse the Prope
 
     4. **Scheduled End**
 
-3. ولا يتم جمع المعلومات بشكل متسق، ولا توجد وسيلة لجمع وتحليل البيانات المتعلقة بالزيارات عبر الحرم الجامعي بأكمله.
+3. انقر فوق عمود **أُنشئ في** وحدد **إزالة**. ستتم الآن إزالة حقل **أُنشئ في** من العرض.
 
 4. اضبط قياس الأعمدة الفردية ليناسب البيانات.
 
@@ -133,17 +133,17 @@ The header is the top right area of the form. You may need to collapse the Prope
 
 5. حدد **البداية المجدولة** كحقل، ثم حدد **اليوم** كشرط في القائمة المنسدلة.
 
-6. Click the <bpt id="p1">**</bpt>…<ept id="p1">**</ept> on the <bpt id="p1">**</bpt>Status<ept id="p1">**</ept> row and click <bpt id="p2">**</bpt>Delete<ept id="p2">**</ept> to delete that filter condition.
+6. انقر على **…** في صف **الحالة**، وانقر فوق **حذف** لحذف شرط عامل التصفية هذا.
 
-7. Press <bpt id="p1">**</bpt>Ok<ept id="p1">**</ept> to save the condition. The view is now filtered to show only records where the Scheduled Start date is today.
+7. اضغط على **موافق** لحفظ الشرط. تمت تصفية العرض الآن ليظهر فقط السجلات التي تاريخ بدئها المجدول هو اليوم.
 
 8. أضف حقلي **البداية الفعلية** و**النهاية الفعلية** إلى طريقة العرض.
 
-<bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> Since we no longer filter on the view status, we will get all today’s visits including completed ones. These fields will help to differentiate completed visits and visits in progress.
+**ملاحظة:** نظرًا لأننا لم نعد نصفي حالة العرض، فسنحصل على جميع زيارات اليوم بما في ذلك الزيارات المكتملة. ستساعد هذه الحقول على التمييز بين الزيارات المكتملة والزيارات الجارية.
 
-1. انقر فوق **Save**.
+9. انقر فوق **Save**.
 
-2. انقر فوق **نشر** وانتظر حتى يكتمل النشر.
+10. انقر فوق **نشر** وانتظر حتى يكتمل النشر.
 
 ## <a name="exercise-2-create-model-driven-app"></a>التمرين 2: إنشاء تطبيق يستند إلى نموذج
 
@@ -181,7 +181,7 @@ The header is the top right area of the form. You may need to collapse the Prope
 
 8. باستخدام أيقونات التنقل على الجانب الأيسر من الشاشة، حدد **التنقل**.
 
-9. في جزء التنقّل، حدد النص **مجموعة 1** أدناه حيث يظهر شريط التنقل.
+9. في جزء التنقّل، حدد النص **مجموعة 1** أدناه حيث يظهر شريط التنقل. قد تحتاج إلى توسيع القائمة على اليسار.
 
 10. على الجانب الأيمن من الشاشة، في القسم **خيارات العرض**، قم بتغيير خاصية **العنوان** إلى **الأمان**.
 
@@ -225,13 +225,13 @@ The header is the top right area of the form. You may need to collapse the Prope
 
 2. إنشاء جهة اتصال جديدة
 
-    1. The app should open to the <bpt id="p1">**</bpt>My Active Contacts<ept id="p1">**</ept> view. If it does not, select Contacts on the left-hand navigation.
+    1. ينبغي أن يفتح التطبيق في عرض **جهات الاتصال النشطة**. إذا لم يكن كذلك، فحدد Contacts على اليسار.
 
     1. انقر فوق **جديد** من القائمة العلوية.
 
     1. أدخل **الاسم الأول** مثل "سمير" و**اسم العائلة** مثل "سليم".
 
-    1. Provide your personal email as <bpt id="p1">**</bpt>Email<ept id="p1">**</ept>. This will be used in a future lab where you will receive an email.
+    1. أدخل بريدك الإلكتروني الشخصي في **البريد الإلكتروني**. سيتم استخدامه في مختبر مستقبلي ستتلقى من خلاله رسالة بريد إلكتروني.
 
     1. انقر فوق **Save & Close**.
 
@@ -253,9 +253,9 @@ The header is the top right area of the form. You may need to collapse the Prope
 
         1. **النهاية المجدولة**: حدد تاريخ الغد والساعة 3:30 مساءً كوقت الانتهاء
 
-- Click <bpt id="p1">**</bpt>Save &amp; Close<ept id="p1">**</ept>. This will create the Visit and you should be able to see it on the Active Visits View.
+- انقر فوق **Save & Close**. سيؤدي هذا إلى إنشاء Visit ويجب أن تكون قادرًا على رؤيتها في Active Visits View.
 
-- Change view to <bpt id="p1">**</bpt>Today’s Visits<ept id="p1">**</ept>. You should no longer see the new visit in the view, since it is scheduled for tomorrow.
+- قم بتغيير طريقة العرض إلى **زيارات اليوم** باستخدام القائمة المنسدلة بجوار **الزيارات النشطة**. من المفترض ألا ترى الزيارة الجديدة في العرض، حيث إنها مجدولة للغد.
 
 4. يمكنك إضافة المزيد من سجلات الاختبار.
 
@@ -263,7 +263,7 @@ The header is the top right area of the form. You may need to collapse the Prope
 
 ![](media/3-model-driven-app.png)
 
-Congratulations! You have created and configured your first model-driven app.
+تهانينا! لقد أنشأت أول تطبيق مستند إلى نموذج وقمت بتكوينه.
 
 ## <a name="challenges"></a>التحديات
 

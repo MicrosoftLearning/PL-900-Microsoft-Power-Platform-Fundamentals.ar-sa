@@ -8,13 +8,13 @@ lab:
 
 ## <a name="scenario"></a>السيناريو
 
-Bellows College is an educational organization with multiple buildings on campus. Campus visitors are currently recorded in paper journals. The information is not captured consistently, and there are no means to collect and analyze data about the visits across the entire campus.
+Bellows College مؤسسة تعليمية يضم حرمها الجامعي العديد من المباني. يتم حاليًا تسجيل زوار الحرم الجامعي في دفاتر عمل ورقية. ولا يتم جمع المعلومات بشكل متسق، ولا توجد وسيلة لجمع وتحليل البيانات المتعلقة بالزيارات عبر الحرم الجامعي بأكمله.
 
 ترغب إدارة الحرم الجامعي في تحديث نظام تسجيل الزوار، بحيث يتم التحكم في الوصول إلى المباني من قبل أفراد الأمن، ويجب أن تكون جميع الزيارات مسجلة مسبقًا ويتم تسجيلها من قبل مضيفيها.
 
 خلال هذه الدورة التدريبية، ستقوم بإنشاء تطبيقات وتفعيل التشغيل الآلي لتمكين موظفي إدارة وأمن Bellows College من إدارة الوصول إلى مباني الحرم الجامعي والتحكم فيه.
 
-In this Module 0 lab, you will acquire a Power Platform trial and access the Power Platform admin center. In the admin center, you will then create a <bpt id="p1">**</bpt>Practice<ept id="p1">**</ept> environment that you will perform the majority of your lab work in.
+في النشاط المعملي للوحدة 0، ستحصل على إصدار تجريبي لـ Power Platform وستصل إلى مركز مسؤولي Power Platform. في مركز المسؤولين، سوف تقوم بإنشاء بيئة **التدريب** التي ستقوم فيها بغالبية عمل الأنشطة المعملية الخاصة بك.
 
 ## <a name="exercise-1--setup"></a>تمرين 1 – الإعداد
 
@@ -26,7 +26,7 @@ In this Module 0 lab, you will acquire a Power Platform trial and access the Pow
 
 1. ضمن **لنبدأ**، أدخل عنوان بريدك الإلكتروني من بيانات اعتماد Microsoft 365 في مربع النص الذي يشير إلى **أدخل عنوان بريد عملك الإلكتروني** وانقر فوق **التالي**.
 
-1. If you see a prompt that you have an existing account with Microsoft. Select <bpt id="p1">**</bpt>Sign in<ept id="p1">**</ept>.
+1. إذا رأيت مطالبة تفيد بأن لديك حسابًا موجودًا مع Microsoft. حدد **"Sign in"**.
 
 1. أدخِل كلمة المرور المُقدَّمة بواسطة "مضيف النشاط المعملي المعتمد".
 
@@ -62,4 +62,4 @@ In this Module 0 lab, you will acquire a Power Platform trial and access the Pow
 
 1. يجب أن تظهر بيئة **التدريب** الآن في قائمة البيئات.
 
-> Your environment may take a few minutes to provision. Refresh the page if needed.
+> قد يستغرق توفير بيئتك بضع دقائق. حدث الصفحة إذا لزم الأمر.

@@ -8,9 +8,9 @@ lab:
 
 ## <a name="scenario"></a>السيناريو
 
-Bellows College is an educational organization with multiple buildings on campus. Campus visits are currently recorded in paper journals. The information is not captured consistently, and there are no means to collect and analyze data about the visits across the entire campus.
+Bellows College مؤسسة تعليمية يضم حرمها الجامعي العديد من المباني. يتم تسجيل زيارات الحرم الجامعي حاليًا في دفاتر ورقية. ولا يتم جمع المعلومات بشكل متسق، ولا توجد وسيلة لجمع وتحليل البيانات المتعلقة بالزيارات عبر الحرم الجامعي بأكمله.
 
-Currently, campus administration is leveraging an Excel spreadsheet to track visitor registration. They would like to modernize their visitor registration system where access to the buildings is controlled by security personnel and all visits are required to be pre-registered and recorded by their hosts.
+حاليًا، تستفيد إدارة الحرم الجامعي من جدول بيانات Excel، لتعقب تسجيل الزوار. إنها ترغب في تحديث نظام تسجيل الزوار، بحيث يتم التحكم في الوصول إلى المباني من قبل أفراد الأمن، ويجب أن تكون جميع الزيارات مسجلة مسبقاً ويتم تسجيلها من قبل مضيفيها.
 
 خلال هذه الدورة التدريبية، ستقوم بإنشاء تطبيقات وتفعيل التشغيل الآلي لتمكين موظفي إدارة وأمن Bellows College من إدارة الوصول إلى مباني الحرم الجامعي والتحكم فيه.
 
@@ -37,11 +37,11 @@ Currently, campus administration is leveraging an Excel spreadsheet to track vis
 
 ### <a name="task-1-create-the-visits-app"></a>المهمة \#1: إنشاء تطبيق الزيارات
 
-1.  Navigate to <ph id="ph1">&lt;https://make.powerapps.com&gt;</ph>. You may need to reauthenticate - click <bpt id="p1">**</bpt>Sign in<ept id="p1">**</ept> and follow instructions if needed.
+1.  انتقل إلى ⁧<https://make.powerapps.com>⁩. قد تحتاج إلى إعادة المصادقة - انقر فوق **تسجيل الدخول** واتبع التعليمات إذا لزم الأمر.
 
 2.  حدد بيئة **الممارسة (الأحرف الأولى من اسمي)** في أعلى اليمين، إذا لم تكن محددةً بالفعل.
 
-3.  If necessary, click the <bpt id="p1">**</bpt>Home<ept id="p1">**</ept> icon on the left side of the screen. Under the <bpt id="p1">**</bpt>Start from<ept id="p1">**</ept> section, select <bpt id="p2">**</bpt>Dataverse<ept id="p2">**</ept>.
+3.  عند الضرورة، انقر فوق أيقونة **الصفحة الرئيسية** على الجانب الأيسر من الشاشة. ضمن قسم **البدء من**، حدد **Dataverse**.
 
 4.  حدد اتصال Dataverse لديك.
 
@@ -60,17 +60,17 @@ Currently, campus administration is leveraging an Excel spreadsheet to track vis
 
 ![تطبيق "اللوحة" الذي تم إنشاؤه من بيانات "الزيارة".](media/2-canvas-app-from-data.png)
 
-9. Bellows College مؤسسة تعليمية يضم حرمها الجامعي العديد من المباني.
+9. في مصمم التطبيق، حدد زر **معاينة التطبيق** (أيقونة التشغيل) على شريط الأوامر. *(يمكنك أيضاً معاينة التطبيق بالضغط على F5 على لوحة المفاتيح خاصتك.)* ألق نظرة على المشهد بأكمله واستمتع برؤية تطبيقك في شكله الاستثنائي الأنيق.
 
 10. أغلق معاينة التطبيق عن طريق تحديد **X** في الجزء العلوي الأيمن من الشاشة.
 
-يتم تسجيل زيارات الحرم الجامعي حاليًا في دفاتر ورقية.
+تهانينا، لقد نجحت في إنشاء Power App من جدول Dataverse. الخطوة التالية في العملية هي تخصيص التطبيق لمطابقة العلامة التجارية لكُليتك. سترشدك السلسلة التالية من الخطوات من خلال توفير بعض التخصيصات الإضافية للتطبيق.
 
 ### <a name="task-2-modify-and-theme-the-newly-created-app"></a>المهمة \#2: تعديل وإضافة وسم التطبيق الذي تم إنشاؤه حديثاً
 
 في هذه المهمة، ستقوم بتخصيص نص العنوان على كل شاشة من الشاشات الثلاث لتطبيقك (استعراض وتفاصيل وتحرير) وتغيير موضوع التطبيق.
 
-1.  ولا يتم جمع المعلومات بشكل متسق، ولا توجد وسيلة لجمع وتحليل البيانات المتعلقة بالزيارات عبر الحرم الجامعي بأكمله.
+1.  أنت الآن على شاشة استعراض. حدد تسمية **الزيارات** على الشاشة.
 
 1.  على الجانب الأيمن من الشاشة، ضمن علامة التبويب "خصائص"، بادر بتحديث خاصية التحكم في **النص** إلى **"زيارات كلية Bellows"** .
 
@@ -102,18 +102,18 @@ Currently, campus administration is leveraging an Excel spreadsheet to track vis
 
 في هذه المهمة، ستختبر تطبيقك الجديد.
 
-1.  مع فتح تطبيقك في App Designer، حدد **ملفات**، وبادر بتحديث اسم تطبيقك إلى **تطبيق الزيارات** وحدد **حفظ**.
+1.  مع فتح التطبيق الخاص بك في مصمم التطبيق، حدد **الإعدادات**، في القسم **عام** قم بتحديث اسم تطبيقك إلى **تطبيق الزيارات**، وانقر فوق **X** لإغلاق شاشة الإعدادات ثم حدد **حفظ**.
 
 2.  انقر فوق سهم **العودة** للرجوع إلى التطبيق.
 
 3.  باستخدام جزء التنقل على اليسار، حدد **BrowseScreen1**.
 
-4.  In the app designer, select the <bpt id="p1">**</bpt>preview the app<ept id="p1">**</ept> button (Play icon) on the command bar. <bpt id="p1">*</bpt>(You can also preview the app by pressing F5 on your keyboard.)<ept id="p1">*</ept>
+4.  في مصمم التطبيق، حدد زر **معاينة التطبيق** (أيقونة التشغيل) على شريط الأوامر. *(يمكنك أيضاً معاينة التطبيق بالضغط على F5 على لوحة المفاتيح خاصتك.)*
 
 4.  بمجرد فتح التطبيق، في حقل **عناصر البحث**، أدخِل النص **Maria**
      *(لاحظ كيفية تصفية العناصر في المعرض استناداً إلى ما تم كتابته في حقل البحث).*
 
-5.  حاليًا، تستفيد إدارة الحرم الجامعي من جدول بيانات Excel، لتعقب تسجيل الزوار.
+5.  بمجرد عرض سجل **Contoso Suites** لـ **Maria Campbell**، انقر فوق الصف للانتقال لفتح تفاصيل تلك الزيارة. (**ملاحظة**: *إذا تم عرض أكثر من سجل Contoso Suites Maria Campbell، فحدد أياً منها*)
 
 6.  لتحرير السجل، حدد **أيقونة القلم الرصاص** في الزاوية العلوية اليمنى من التطبيق.
 
@@ -121,7 +121,7 @@ Currently, campus administration is leveraging an Excel spreadsheet to track vis
 
 8.  في أعلى يمين الشاشة، انقر فوق أيقونة **X** للعودة إلى محرر تطبيق اللوحة.
 
-إنها ترغب في تحديث نظام تسجيل الزوار، بحيث يتم التحكم في الوصول إلى المباني من قبل أفراد الأمن، ويجب أن تكون جميع الزيارات مسجلة مسبقاً ويتم تسجيلها من قبل مضيفيها.
+تهانينا! لقد أنشأت أول تطبيق لوحة وقمت بتكوينه.
 
 ## <a name="challenges"></a>التحديات
 
