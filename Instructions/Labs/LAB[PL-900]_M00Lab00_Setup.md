@@ -2,13 +2,8 @@
 lab:
   title: 'النشاط المعملي 0: التحقق من البيئة المعملية'
   module: 'Module 0: Course introduction'
-ms.openlocfilehash: d25543d93be7e40749c8fee3a01c35b3a8f2947b
-ms.sourcegitcommit: 8a89b7eacd1a65eaa7c5d6bff0dc7254991c4dde
-ms.translationtype: HT
-ms.contentlocale: ar-SA
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "147154389"
 ---
+
 # <a name="lab-0-validate-lab-environment"></a>النشاط المعملي 0: التحقق من البيئة المعملية
 
 ## <a name="scenario"></a>السيناريو
