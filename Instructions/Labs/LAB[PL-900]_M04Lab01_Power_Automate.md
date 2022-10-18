@@ -8,7 +8,7 @@ lab:
 
 ## <a name="scenario"></a>السيناريو
 
-Bellows College is an educational organization with multiple buildings on campus. Campus visitors are currently recorded in paper journals. The information is not captured consistently, and there are no means to collect and analyze data about the visits across the entire campus.
+Bellows College مؤسسة تعليمية يضم حرمها الجامعي العديد من المباني. يتم حاليًا تسجيل زوار الحرم الجامعي في دفاتر عمل ورقية. ولا يتم جمع المعلومات بشكل متسق، ولا توجد وسيلة لجمع وتحليل البيانات المتعلقة بالزيارات عبر الحرم الجامعي بأكمله.
 
 ترغب إدارة الحرم الجامعي في تحديث نظام تسجيل الزوار، بحيث يتم التحكم في الوصول إلى المباني من قبل أفراد الأمن، ويجب أن تكون جميع الزيارات مسجلة مسبقًا ويتم تسجيلها من قبل مضيفيها.
 
@@ -31,11 +31,11 @@ Bellows College is an educational organization with multiple buildings on campus
 
 ## <a name="exercise-1-create-visit-notification-flow"></a>التمرين 1: إنشاء تدفق Visit Notification
 
-<bpt id="p1">**</bpt>Objective:<ept id="p1">**</ept> In this exercise, you will create a Power Automate flow that implements the requirement. The visitor should be sent an email that includes the unique code assigned to the visit when a visit is created.
+**Objective:** في هذا التمرين، سوف تنشئ تدفق Power Automate ينفذ المتطلبات. ينبغي إرسال بريد إلكتروني للزائر يتضمن الرمز الفريد المخصص للزيارة فور إنشاء الزيارة.
 
 ### <a name="task-1-create-a-flow"></a>المهمة \#1: إنشاء تدفق
 
-1.  Navigate to <ph id="ph1">&lt;https://make.powerapps.com&gt;</ph>. You may need to reauthenticate - click <bpt id="p1">**</bpt>Sign in<ept id="p1">**</ept> and follow instructions if needed.
+1.  انتقل إلى ⁧<https://make.powerapps.com>⁩. قد تحتاج إلى إعادة المصادقة - انقر فوق **تسجيل الدخول** واتبع التعليمات إذا لزم الأمر.
 
 2.  حدد بيئة **الممارسة (الأحرف الأولى من اسمي)** في أعلى اليمين، إذا لم تكن محددةً بالفعل.
 
@@ -59,11 +59,11 @@ Bellows College is an educational organization with multiple buildings on campus
 
     3.  حدد **المنظمة** في **النطاق**
 
-    4.  On the trigger step, click the ellipsis (<bpt id="p1">**</bpt>...<ept id="p1">**</ept>) and click <bpt id="p2">**</bpt>Rename<ept id="p2">**</ept>. Rename this trigger <bpt id="p1">**</bpt>"When a visit is added"<ept id="p1">**</ept>. This is a good practice, so you and other flow editors can understand the purpose of the step without having to dive into the details.
+    4.  في خطوة المشغل، انقر فوق علامة الحذف ( **...** ) وانقر فوق **Rename**. أعد تسمية هذا المشغل **"When a visit is added"** . هذه ممارسة جيدة، لذا يمكنك أنت ومحررو التدفق الآخرون فهم الغرض من الخطوة دون الحاجة إلى الخوض في التفاصيل.
 
 ### <a name="task-2-create-a-step-to-get-the-visitor-row"></a>المهمة \#2: بادر بإنشاء خطوة صف "الوصول إلى الزائر"
 
-1.  Bellows College مؤسسة تعليمية يضم حرمها الجامعي العديد من المباني.
+1.  حدد **New step+**. هذه الخطوة مطلوبة لاسترداد معلومات الزوار، متضمنة عنوان البريد الإلكتروني.
 
 2.  ابحث عن **Dataverse**.
 
@@ -71,16 +71,16 @@ Bellows College is an educational organization with multiple buildings on campus
 
 4.  حدد **جهات الاتصال** في **اسم الجدول**
 
-5.  يتم حاليًا تسجيل زوار الحرم الجامعي في دفاتر عمل ورقية.
+5.  حدد الحقل **معرف الصف**. لاحظ وجود نافذة منبثقة لتحديد المحتوى الديناميكي أو التعبيرات.
 
-6.  ولا يتم جمع المعلومات بشكل متسق، ولا توجد وسيلة لجمع وتحليل البيانات المتعلقة بالزيارات عبر الحرم الجامعي بأكمله.
+6.  في حقل **معرف الصف**، حدد **الزائر (قيمة)** من قائمة المحتوى الديناميكي. في هذه الخطوة، تبحث عن جهة الاتصال لصف الزيارة الذي تم إنشاؤه لتشغيل هذا التدفق. نظرا لأن عنوان البريد الإلكتروني هو جزء من جدول جهات الاتصال، فستحتاج إلى هذه المعلومات لإرسال البريد الإلكتروني إلى الزائر.
 
-7.  On this action, click the ellipsis (<bpt id="p1">**</bpt>...<ept id="p1">**</ept>) and click <bpt id="p2">**</bpt>Rename<ept id="p2">**</ept>.
-        Rename this action <bpt id="p1">**</bpt>"Get the Visitor"<ept id="p1">**</ept>. This is a good practice, so you and other flow editors can understand the purpose of the step without having to dive into the details.
+7.  في هذا الإجراء، انقر فوق علامة الحذف ( **...** ) وانقر فوق **Rename**.
+        أعد تسمية هذا الإجراء **"الوصول إلى الزائر"** . هذه ممارسة جيدة، لذا يمكنك أنت ومحررو التدفق الآخرون فهم الغرض من الخطوة دون الحاجة إلى الخوض في التفاصيل.
 
 ### <a name="task-3-create-a-step-to-send-an-email-to-the-visitor"></a>المهمة \#3: إنشاء خطوة لإرسال بريد إلكتروني إلى الزائر
 
-1.  Click <bpt id="p1">**</bpt>+ New step<ept id="p1">**</ept>. This is the step that will send an email to the visitor.
+1.  انقر فوق **+ خطوة جديدة**. هذه هي الخطوة التي ستنشئ رسالة بريد إلكتروني وترسلها للزائر.
 
 2.  ابحث عن *mail* وحدد موصل **Office 365 Outlook** وإجراء **Send an email (V2)** .
 
@@ -97,7 +97,7 @@ Bellows College is an educational organization with multiple buildings on campus
 
 7.  أدخل النص التالي في **نص البريد الإلكتروني**:
 
->   Dynamic content needs to be placed where fields are named in brackets. It is recommended to copy &amp; paste all text first and then add dynamic content in the correct places.
+>   يتعين وضع المحتوى الديناميكي حيث تتم تسمية الحقول بين قوسين. يوصى بنسخ كل النص ولصقه أولاً ثم إضافة المحتوى الديناميكي في الأماكن الصحيحة.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
    Dear {First Name},
@@ -110,15 +110,15 @@ Bellows College is an educational organization with multiple buildings on campus
    Bellows College
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-8.  Highlight the <bpt id="p1">**</bpt>{First Name}<ept id="p1">**</ept> text. Replace it with the <bpt id="p1">**</bpt>First Name<ept id="p1">**</ept> field from the <bpt id="p2">**</bpt>Get the Visitor<ept id="p2">**</ept> step.
+8.  بادر بتمييز النص **{First Name}** . استبدله بالحقل **الاسم الأول** من خطوة **الوصول إلى الزائر**.
 
-9.  Highlight the <bpt id="p1">**</bpt>{Scheduled Start}<ept id="p1">**</ept> text. Replace it with the <bpt id="p1">**</bpt>Scheduled Start<ept id="p1">**</ept> field <bpt id="p2">**</bpt>When a visit is added<ept id="p2">**</ept> step.
+9.  بادر بتمييز نص **{Scheduled Start}** . استبدله بالحقل **بدء المجدول** **عند إضافة خطوة زيارة**.
 
-10.  Highlight the <bpt id="p1">**</bpt>{Scheduled End}<ept id="p1">**</ept> text. Replace it with the <bpt id="p1">**</bpt>Scheduled End<ept id="p1">**</ept> field from the <bpt id="p2">**</bpt>When a visit is added<ept id="p2">**</ept> step.
+10.  بادر بتمييز نص **{Scheduled End}** . استبدله بالحقل **الانتهاء المجدول** من الخطوة **عند إضافة زيارة**.
 
 11.  انقر فوق **Save**.
 
-Leave this flow tab open for the next task. You flow should look approximately like the following:
+اترك علامة تبويب التدفق مفتوحة من أجل المهمة التالية. ينبغي أن يبدو تدفقك كما يلي تقريبًا:
 
 ![مثال على خطوات التدفق.](media/4-Flow.png)
 
@@ -132,7 +132,7 @@ Leave this flow tab open for the next task. You flow should look approximately l
 
 3.  اترك علامة تبويب المستعرض مفتوحة، وانتقل مرة أخرى إلى علامة التبويب السابقة التي بها تدفقك.
 
-4.  On the command bar, click <bpt id="p1">**</bpt>Test<ept id="p1">**</ept>. Select <bpt id="p1">**</bpt>Manually<ept id="p1">**</ept> and then click <bpt id="p2">**</bpt>Test<ept id="p2">**</ept>.
+4.  في شريط الأوامر، انقر فوق **اختبار**. حدد **يدويًا** ثم انقر فوق **اختبار**.
 
 5.  انتقل إلى علامة تبويب المستعرض باستخدام التطبيق المستند إلى النموذج. 
 
@@ -152,10 +152,10 @@ Leave this flow tab open for the next task. You flow should look approximately l
 
 8. حدد زر **حفظ وإغلاق**.
 
-9. Navigate to the browser tab with your flow test running. After a short delay, you should see the flow running. This is where you can catch any issues in the flow or confirm that it ran successfully.
+9. انتقل إلى علامة تبويب المستعرض مع تشغيل اختبار التدفق. بعد لحظات تأخير، يجب أن ترى التدفق قيد التشغيل. تستطيع من هذا المكان تحديد أي مشكلات في التدفق أو التأكد أمن نجاح التشغيل.
 
-After a short delay, you should see an email in your inbox, since you populated John Doe's email as your personal email. Note that it may go to your Junk Email folder.
+بعد تأخير وجيز، يجب أن تشاهد رسالة بريد إلكتروني في صندوق الوارد لديك، نظراً لأنك أدخلت البريد الإلكتروني لـ John Doe كبريدك الإلكتروني الشخصي. لاحظ أن الرسالة قد تنتقل إلى مجلد البريد الإلكتروني غير الهام.
 
 ## <a name="challenges"></a>التحديات
 
-- Play around with the formatting on the email. How can you make it more professional looking?
+- تحرك حول التنسيق الموجود في البريد الإلكتروني. كيف يمكنك جعله يبدو أكثر احترافيةً؟

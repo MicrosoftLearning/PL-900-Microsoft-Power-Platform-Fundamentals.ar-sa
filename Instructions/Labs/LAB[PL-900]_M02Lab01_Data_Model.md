@@ -8,13 +8,13 @@ lab:
 
 ## <a name="scenario"></a>السيناريو
 
-Bellows College is an educational organization with multiple buildings on campus. Campus visits are currently recorded in paper journals. The information is not captured consistently, and there are no means to collect and analyze data about the visits across the entire campus.
+Bellows College مؤسسة تعليمية يضم حرمها الجامعي العديد من المباني. يتم تسجيل زيارات الحرم الجامعي حاليًا في دفاتر ورقية. ولا يتم جمع المعلومات بشكل متسق، ولا توجد وسيلة لجمع وتحليل البيانات المتعلقة بالزيارات عبر الحرم الجامعي بأكمله.
 
 ترغب إدارة الحرم الجامعي في تحديث نظام تسجيل الزوار، بحيث يتم التحكم في الوصول إلى المباني من قبل أفراد الأمن، ويجب أن تكون جميع الزيارات مسجلة مسبقًا ويتم تسجيلها من قبل مضيفيها.
 
 خلال هذه الدورة التدريبية، ستقوم بإنشاء تطبيقات وتفعيل التشغيل الآلي لتمكين موظفي إدارة وأمن Bellows College من إدارة الوصول إلى مباني الحرم الجامعي والتحكم فيه.
 
-In this lab you will access your environment, create a Microsoft Dataverse database, and create a solution to track your changes. You will also create a data model to support the following requirements:
+في هذا النشاط المعملي، ستصل إلى بيئتك، وستنشئ قاعدة بيانات Microsoft Dataverse، وتنشئ حلًا لتتبع تغييراتك. ستقوم أيضًا بإنشاء نموذج بيانات لدعم المتطلبات التالية:
 
 - R1 - تعقب المعلومات لزيارات الحرم الجامعي المجدولة
 
@@ -28,7 +28,7 @@ In this lab you will access your environment, create a Microsoft Dataverse datab
 
 لإعداد بيئات تعلمك سوف:
 
-- Refer to the <bpt id="p1">[</bpt>data model document<ept id="p1">](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/blob/master/Allfiles/Campus%20Management.png)</ept> for the metadata description (tables and relationships). You can hold CTRL+click or right click the link to open the data model document in a new window.
+- برجاء الرجوع إلى [مستند نموذج البيانات](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/blob/master/Allfiles/Campus%20Management.png) لوصف بيانات التعريف (الجداول والعلاقات). يمكنك الضغط مع الاستمرار على CTRL مع النقر أو النقر بزر الماوس الأيمن فوق الرابط لفتح مستند نموذج البيانات في نافذة جديدة.
 - إنشاء جدول زيارة
 - استيراد بيانات الزيارة باستخدام جدول بيانات Excel
 
@@ -166,7 +166,7 @@ In this lab you will access your environment, create a Microsoft Dataverse datab
 
 في هذه المهمة، ستقوم باستيراد بيانات الزيارة من ملف Excel.
 
-1. You should have the <bpt id="p1">**</bpt>Visits.xlsx<ept id="p1">**</ept> file stored on your Desktop. Download <bpt id="p1">[</bpt>Visits.xlsx<ept id="p1">](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/raw/master/Allfiles/Visits.xlsx)</ept> if you do not.
+1. يجب أن يكون لديك ملف **Visits.xlsx** مُخزَّن على سطح المكتب لديك. بادر بتنزيل [Visits.xlsx](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/raw/master/Allfiles/Visits.xlsx) إذا لم تقم بذلك.
 
 2. إذا لم تكن قد سجلت الدخول بالفعل، فسجِل الدخول إلى [https://make.powerapps.com](https://make.powerapps.com/).
 
@@ -180,7 +180,7 @@ In this lab you will access your environment, create a Microsoft Dataverse datab
 
 7. من القائمة التي تظهر، حدد الزر **تحميل**.
 
-8. Bellows College مؤسسة تعليمية يضم حرمها الجامعي العديد من المباني.
+8. حدد موقع ملف **Visits.xlsx** الذي نزلته مسبقًا وحدده. (لاحظ أن تحميل الملف قد يستغرق دقيقة أو دقيقتين. لا تقلق إذا تلقيت رسالة تفيد بوجود أخطاء في التعيين، فسنصلحها بعد ذلك.)
 
 9. انقر فوق **أعمدة المخطط** (ملاحظة قد تحتاج إلى التمرير لليسار لرؤية الخيار أعمدة المخطط).
 
@@ -203,7 +203,7 @@ In this lab you will access your environment, create a Microsoft Dataverse datab
 
 14. حدد **استيراد** في الزاوية العلوية اليسرى لإكمال استيراد البيانات.
 
-يتم تسجيل زيارات الحرم الجامعي حاليًا في دفاتر ورقية.
+**ملاحظة:** قد يستغرق استيراد بياناتك إلى جدولك عدة دقائق. لا تقلق إذا واجهت بعض الأخطاء، فهذا أمرٌ طبيعي ولن يؤثر على بقية الدورة التدريبية.
 
 15. انقر فوق **X** لإغلاق لوحة استيراد البيانات.
 
