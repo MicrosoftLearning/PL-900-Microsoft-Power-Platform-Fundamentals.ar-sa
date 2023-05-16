@@ -17,7 +17,7 @@ layout: home
 {% endfor %}
 
 ## العروض التوضيحية
-<--
+<!--
 {% assign demos = site.pages | where_exp:"page", "page.url contains '/Instructions/Demos'" %}
 | الوحدة النمطية | Demo |
 | --- | --- | 
