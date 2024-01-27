@@ -1,5 +1,5 @@
 ---
-title: تعليمات مستضافة عبر الإنترنت
+title: التعليمات المستضافة عبر الإنترنت
 permalink: index.html
 layout: home
 ---
@@ -11,15 +11,15 @@ layout: home
 ## الأنشطة المعملية
 
 {% assign labs = site.pages | where_exp:"page", "page.url contains '/Instructions/Labs'" %}
-| الوحدة النمطية | التمرين المعملي |
+| الوحدة النمطية | النشاط المعملي |
 | --- | --- | 
-{% for activity in labs  %}| {{ activity.lab.module }} | [{{ activity.lab.title }}{% if activity.lab.type %} - {{ activity.lab.type }}{% endif %}]({{ site.github.url }}{{ activity.url }}) |
+{% للأنشطة في المعامل %}| {{ activity.lab.module }} | [{{ activity.lab.title }}{% if activity.lab.type %} - {{ activity.lab.type }}{% endif %}]({{ site.github.url }}{{ activity.url }}) |
 {% endfor %}
 
 ## العروض التوضيحية
 
 {% assign demos = site.pages | where_exp:"page", "page.url contains '/Instructions/Demos'" %}
-| الوحدة النمطية | Demo |
+| الوحدة النمطية | العرض التوضيحي |
 | --- | --- | 
-{% for activity in demos  %}| {{ activity.demo.module }} | [{{ activity.demo.title }}]({{ site.github.url }}{{ activity.url }}) |
+{% للنشاط في العرض التوضيحي %}| {{ activity.demo.module }} | [{{ activity.demo.title }}]({{ site.github.url }}{{ activity.url }}) |
 {% endfor %}
