@@ -1,7 +1,7 @@
 ---
 lab:
   title: 'النشاط المعملي 2: كيفية إنشاء تطبيق اللوحة'
-  module: 'Module 3: Get started with Power Apps'
+  module: 'Module 3: Describe how to build applications with Microsoft Power Apps'
 ---
 
 # النشاط المعملي 2: كيفية إنشاء تطبيق اللوحة

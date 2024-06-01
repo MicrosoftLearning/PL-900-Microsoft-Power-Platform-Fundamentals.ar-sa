@@ -1,7 +1,7 @@
 ---
 lab:
   title: 'النشاط المعملي 4: كيفية إنشاء حل تلقائي'
-  module: 'Module 4: Get Started with Power Automate'
+  module: 'Module 4: Describe building automation with Microsoft Power Automate'
 ---
 
 # النشاط المعملي 4: كيفية إنشاء حل تلقائي

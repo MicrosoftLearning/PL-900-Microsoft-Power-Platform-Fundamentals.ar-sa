@@ -1,7 +1,7 @@
 ---
 lab:
   title: 'النشاط المعملي 1: نمذجة البيانات'
-  module: 'Module 2: Introduction to Microsoft Dataverse'
+  module: 'Module 2: Identify foundational components of Microsoft Power Platform'
 ---
 
 # النشاط المعملي 1: نمذجة البيانات
