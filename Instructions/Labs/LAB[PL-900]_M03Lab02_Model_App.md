@@ -1,4 +1,4 @@
-<div class="Box-sc-g0xbh4-0 eoaCFS js-snippet-clipboard-copy-unpositioned undefined" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><markdown-accessiblity-table data-catalyst=""><table tabindex="0">
+<div class="Box-sc-g0xbh4-0 eoaCFS js-snippet-clipboard-copy-unpositioned undefined" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div dir="rtl"><markdown-accessiblity-table data-catalyst=""><table tabindex="0">
   <thead>
   <tr>
   <th>lab</th>
@@ -319,6 +319,6 @@
 </li>
 </ol>
 <p dir="rtl">يجب أن يبدو التطبيق المستند إلى النموذج الجاري تشغيله كما يلي تقريبًا:</p>
-<p dir="rtl"><a target="_blank" rel="noopener noreferrer" href="/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals.ar-sa/blob/OLPRODLOC/Instructions/Labs/media/lab-3-create-a-model-app-01.png"><img src="/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals.ar-sa/raw/OLPRODLOC/Instructions/Labs/media/lab-3-create-a-model-app-01.png" alt="لقطة شاشة للتطبيق المستند إلى النموذج الذي تم إنشاؤه للتو." style="max-width: 100%;"></a></p>
+<p dir="rtl"><a target="_blank" rel="noopener noreferrer" href="https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals.ar-sa/blob/main/Instructions/Labs/media/lab-3-create-a-model-app-01.png"><img src="https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals.ar-sa/blob/main/Instructions/Labs/media/lab-3-create-a-model-app-01.png" alt="لقطة شاشة للتطبيق المستند إلى النموذج الذي تم إنشاؤه للتو." style="max-width: 100%;"></a></p>
 <p dir="rtl">تهانينا! لقد أنشأت أول تطبيق مستند إلى نموذج وقمت بتكوينه.</p>
 </article></div>
