@@ -61,10 +61,10 @@ lab:
 ## التمرين 2: تنزيل الصور
 
 1. افتح نافذة مستعرض في المستأجر الخاص بك، وأدخل https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/tree/master/Allfiles.
-2. سترى الصور في لقطة الشاشة.
+1. سترى الصور في لقطة الشاشة.
 
-![ملفات الصور.](media/images.png)
+    ![ملفات الصور.](media/images.png)
 
-3. افتح كل صورة بشكل منفصل وقم بالتنزيل عن طريق تحديد أيقونة **التنزيل** .
+1. افتح كل صورة بشكل منفصل وقم بالتنزيل عن طريق تحديد أيقونة **التنزيل** .
 
-![زر تنزيل الصورة.](media/download-image.png)
+    ![زر تنزيل الصورة.](media/download-image.png)
